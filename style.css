@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+h1, h2, h3 {
+    font-size: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    color: red;
+}
