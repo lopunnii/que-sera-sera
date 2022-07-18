@@ -16,7 +16,7 @@ li {
 }
 
 header {
-    background-color: antiquewhite;
+    background-color: #ffffff;
     padding: 20px;
     display: flex;
     justify-content: space-around;
@@ -25,4 +25,18 @@ header {
 nav ul {
     display: flex;
     gap: 30px;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/hero.jpg");
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    color: white;
+    font-size: 42px;
+    text-shadow: 2px 2px 5px #222222;
 }
