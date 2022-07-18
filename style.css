@@ -1,3 +1,5 @@
+/*Reset CSS*/
+
 * {
     padding: 0;
     margin: 0;
@@ -14,6 +16,8 @@ h1, h2, h3 {
 li {
     list-style-type: none;
 }
+
+/*CSS*/
 
 header {
     background-color: #ffffff;
@@ -39,4 +43,41 @@ nav ul {
     color: white;
     font-size: 42px;
     text-shadow: 2px 2px 5px #222222;
+}
+
+.news-container {
+    height: 600px;
+}
+
+#news {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.jp-header {
+    font-size: 36px;
+    color: goldenrod;
+}
+
+.en-header {
+    font-size: 22px;
+    color: black;
+}
+
+.about-details {
+    width: 450px;
+}
+
+.temp-img {
+    width: 450px;
+    height: 250px;
+    background-color: antiquewhite;
 }
