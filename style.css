@@ -46,7 +46,10 @@ nav ul {
 }
 
 .news-container {
-    height: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #news {
@@ -80,4 +83,21 @@ nav ul {
     width: 450px;
     height: 250px;
     background-color: antiquewhite;
+}
+
+#service {
+    height: 600px;
+    background-color: lightblue;
+}
+
+#service-area {
+    height: 600px;
+}
+
+#start-service {
+    height: 600px;
+}
+
+footer {
+    padding: 30px;
 }
