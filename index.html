@@ -2,19 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/tablet.css" media="screen and (min-width: 600px) and (max-width: 949px)">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width: 599px)">
+	
+	<!--Google Fonts-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+	
     <title>ケ・セラ・セラ</title>
 </head>
+	
 <body>
     <header>
-        <h1>ケ・セラ・セラ</h1>
+        <h1><a href="index.html">ケ・セラ・セラ</a></h1>
         <nav>
             <ul>
-                <li>トップページ</li>
-                <li>私たちについて</li>
-                <li>サービス</li>
-                <li>会員登録</li>
-                <li></li>
+				<li class="active-page"><a href="index.html">トップページ</a></li>
+                <li><a href="#">私たちについて</a></li>
+                <li><a href="#">サービス</a></li>
+                <li><a href="#">会員登録</a></li>
+                <li><a href="#"><span class="material-icons-outlined md-24 white">mail</span></a></li>
             </ul>
         </nav>
     </header>
@@ -23,7 +34,7 @@
         <section id="hero">
             <div class="hero-image">
                 <div class="hero-text">
-                    <h2>知多半島の介護保険外サービスは<br>
+                    <h2 class="wf-sawarabimincho">知多半島の介護保険外サービスは<br>
                         私たちにお任せください。</h2>
                 </div>
             </div>
@@ -32,13 +43,14 @@
         <div class="news-container">
         <section id="news">
             <h2 class="en-header">NEWS</h2>
-            <button>新着情報をインスタグラムでチェックする</button>
+            <button><span class="material-icons md-24 bottom">photo_camera</span>新着情報をインスタグラムでチェックする</button>
         </section>
 
         <section id="about">
-            <div class="temp-img"></div>
+            <div class="temp-img">
+			<img src="img/img1.jpg" alt="介護士"></div>
             <div class="about-details">
-            <h2 class="jp-header">やりたいを叶えて、<br>
+            <h2 class="jp-header wf-sawarabimincho">やりたいを叶えて、<br>
                 もっと充実した毎日を。</h2>
             <p>介護保険で対応できない、家事や介護などを全スタッフが介護福祉士の資格所持者の私たちがサポート致します。</p>
             <button>VIEW MORE</button>
@@ -47,66 +59,112 @@
         </div>
 
         <section id="service">
-            <h2 class="en-header">OUR SERVICE</h2>
-            <h2 class="jp-header">介護福祉士によるプロのサポート</h2>
+			<div>
+            <h2 class="en-header center-text">OUR SERVICE</h2>
+            <h2 class="jp-header wf-sawarabimincho center-text">介護福祉士によるプロのサポート</h2>
+			</div>
 
+			<div class="list-container center-text">
             <div class="health">
-            <h3>身体介護</h3>
+			<div class="health-img">
+				<div class="temp-img-two">
+				<img src="img/img3.jpg" alt="介護士と老人"></div>
+				<h3 class="wf-sawarabimincho">身体介護</h3>
+			</div>
             <ul>
-                <li>食事の介護</li>
-                <li>入浴の介護</li>
-                <li>服薬の介護</li>
-                <li>着替えの介護</li>
+				<div class="top-row">
+                <li><span class="material-icons md-36 blue">restaurant</span><br>
+					食事の介護</li>
+                <li><span class="material-icons md-36 blue">shower</span><br>
+					入浴の介護</li>
+				</div>
+				<div class="bottom-row">
+                <li><span class="material-icons md-36 blue">medication</span><br>
+					服薬の介護</li>
+                <li><span class="material-icons md-36 blue">checkroom</span><br>
+					着替えの介護</li>
+				</div>
             </ul>
-            </div>
+            </div><!--.health-->
 
             <div class="lifestyle">
-            <h3>生活援助</h3>
+			<div class="lifestyle-img">
+				<div class="temp-img-two">
+				<img src="img/img2.jpg" alt="介護士と老人"></div>
+				<h3 class="wf-sawarabimincho">生活援助</h3>
+			</div>
             <ul>
-                <li>食事の調理</li>
-                <li>洗濯</li>
-                <li>お部屋の掃除</li>
-                <li>外出の付添</li>
+				<div class="top-row">
+                <li><span class="material-icons md-36 blue">soup_kitchen</span><br>
+					食事の調理</li>
+                <li><span class="material-icons md-36 blue">local_laundry_service</span><br>
+					洗濯</li>
+				</div>
+				<div class="bottom-row">
+                <li><span class="material-icons md-36 blue">cleaning_services</span><br>
+					お部屋の掃除</li>
+                <li><span class="material-icons md-36 blue">accessible</span><br>
+					外出の付添</li>
+				</div>
             </ul>
-            </div>
+            </div><!--.lifestyle-->
+			</div><!--.list-container-->
 
-            <p>この他にも介護保険では対応できないあらゆる介護・生活支援をサポート可能です</p>
+            <p class="center-text">この他にも介護保険では対応できないあらゆる介護・生活支援をサポート可能です</p>
             <button>VIEW MORE</button>
         </section>
 
         <section id="service-area">
-            <h2 class="en-header">SERVICE AREA</h2>
-            <h2 class="jp-header">サービス対応エリア</h2>
+			<div>
+            <h2 class="en-header center-text">SERVICE AREA</h2>
+            <h2 class="jp-header wf-sawarabimincho center-text">サービス対応エリア</h2>
+			</div>
+			<div>
             <h3>愛知県知多半島限定</h3>
             <p>東海市、大府市、知多市、常滑市、半田市、知多郡の東浦町、阿久比町、武豊町、美浜町、南知多町</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26196.481160801563!2d136.86544236907292!3d34.84215013932177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60048621d179afeb%3A0xaf41b7689dd15dd!2z55-l5aSa5Y2K5bO2!5e0!3m2!1sja!2sjp!4v1661314325338!5m2!1sja!2sjp" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
         </section>
 
-        <section id="start-service">
-            <h2 class="en-header">START OF THE SERVICE</h2>
-            <h2 class="jp-header">ご利用を開始する</h2>
+		<hr>
+		
+        <section id="start-service" class="center-text">
+			<div>
+            <h2 class="en-header center-text">START OF THE SERVICE</h2>
+            <h2 class="jp-header wf-sawarabimincho center-text">ご利用を開始する</h2>
+			</div>
             <p>サービスをご利用いただくためには会員登録が必要となります。<br>
                その他ご不明な点がございましたら、お気軽にお問い合わせ下さい。</p>
-            <button>会員登録はこちら</button>
-            <button>お問い合わせ</button>
+			<div class="start-service-buttons">
+            <button><span class="material-icons-outlined md-24 bottom">edit_note</span>会員登録はこちら</button>
+            <button><span class="material-icons-outlined md-24 bottom">mail</span>お問い合わせ</button>
+			</div>
+			<div>
             <p>お電話でのお問い合わせはコチラ</p>
-            <p>0569-58-3389</p>
-            <p>モバイル：070-4205-3459<br>
+            <p class="phone-number"><span class="material-icons md-48 sub">call</span>0569-58-3389</p>
+            <p class="contact-info">モバイル：070-4205-3459<br>
                営業日時：9:00-18:00（年中無休）</p>
+			</div>
         </section>
+		
+		<hr>
+		
     </main>
 
     <footer>
+		<div class="footer-nav">
+		<a href="#"><img src="img/logo-medium.png" alt="ケ・セラ・セラロゴ"></a>
         <nav>
             <ul>
-                <li>ケ・セラ・セラロゴ</li>
-                <li>トップページ</li>
-                <li>私たちについて</li>
-                <li>サービス</li>
-                <li>会員登録</li>
-                <li>お問い合わせ</li>
+                <li><a href="index.html">トップページ</a></li>
+                <li><a href="#">私たちについて</a></li>
+                <li><a href="#">サービス</a></li>
+                <li><a href="#">会員登録</a></li>
+                <li><a href="#">お問い合わせ</a></li>
             </ul>
         </nav>
-        <p>Copyright © ケ・セラ・セラ . All Rights Reserved.</p>
+		</div>
+        <p class="copyright center-text">Copyright © ケ・セラ・セラ . All Rights Reserved.</p>
     </footer>
 </body>
 </html>
