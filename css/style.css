@@ -48,7 +48,7 @@ h1 a {
 	overflow: hidden; 
 }
 
-p, li {
+p, li, a {
 	font-family: "Noto Sans JP";
 	color: black;
 }
