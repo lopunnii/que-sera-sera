@@ -279,7 +279,7 @@ header li:last-child a {
 
 a:link {
 	text-decoration: none;
-	color: black;
+	color: inherit;
 }
 
 a:visited {
