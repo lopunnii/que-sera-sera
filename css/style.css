@@ -50,6 +50,7 @@ h1 a {
 
 p, li {
 	font-family: "Noto Sans JP";
+	color: black;
 }
 
 .active-page {
