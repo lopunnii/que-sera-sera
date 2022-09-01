@@ -1,0 +1,356 @@
+/*Reset CSS*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+h1, h2, h3 {
+    font-size: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+/*CSS*/
+.center-text {
+	text-align: center;
+}
+
+header, .footer-nav {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+	height: 66px;
+	align-items: center;
+}
+
+h1 a {
+	background-image: url("../img/logo-medium.png");
+	background-repeat: no-repeat;
+	display: block;
+	width: 165px;
+	height: 66px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden; 
+}
+
+p, li {
+	font-family: "Noto Sans JP";
+}
+
+.active-page {
+	color: darkcyan;
+}
+
+header li:last-child {
+	background-color: steelblue;
+	height: 100%;
+	width: 66px;
+}
+
+header li:last-child a {
+	height: 100%;
+	width: 66px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/hero.jpg");
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    color: white;
+    font-size: 42px;
+    text-shadow: 2px 2px 5px #222222;
+}
+
+.news-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+	align-items: center;
+}
+
+#news {
+    display: flex;
+    justify-content: center;
+	align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+#news button, #start-service button {
+	background-color: steelblue;
+	border: none;
+	color: white;
+	font-weight: bold;
+}
+
+#news button {
+	width: 350px;
+	padding: 10px;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.jp-header {
+    font-size: 36px;
+    color: goldenrod;
+}
+
+.en-header {
+    font-size: 16px;
+    color: #444444;
+	font-weight: 500;
+	font-family: Verdana, Geneva, "sans-serif";
+}
+
+.about-details {
+    width: 450px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+#about button,
+#service button {
+	border: 1px solid grey;
+	background-color: white;
+	padding: 15px;
+	width: 200px;
+}
+
+#about button {
+	align-self: flex-end;
+	margin-bottom: 80px;
+	margin-top: 10px;
+}
+
+#service {
+    background-color: aliceblue;
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#service .en-header {
+	margin-top: 40px;
+}
+
+#service h3 {
+	font-size: 24px; 
+	position: absolute;
+	top: 10px;
+	left: 25px;
+	text-shadow: 5px 5px 5px white;
+}
+
+.health-img, .lifestyle-img {
+	position: relative;
+}
+
+.list-container {
+	display: flex;
+	align-items: center;
+	gap: 80px;
+	font-weight: bold;
+}
+
+.health, .lifestyle {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	align-items: center;
+}
+
+.top-row {
+	display: flex;
+}
+
+.bottom-row {
+	display: flex;
+}
+
+#service li {
+	border: 1px solid darkcyan;
+	border-radius: 8px;
+	width: 180px;
+	height: 100px;
+	background-color: white;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#service button {
+	margin-bottom: 50px;
+}
+
+#service-area {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#service-area .en-header {
+	margin-top: 30px;
+}
+
+#service-area .jp-header {
+	margin-bottom: 30px;
+}
+
+#service-area p {
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+#service-area iframe {
+	margin-bottom: 40px;
+}
+
+#start-service {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+}
+
+#start-service .en-header {
+	margin-top: 30px;
+}
+
+#start-service button {
+	padding: 15px;
+	width: 220px;
+	margin: 30px 0; 
+}
+
+.start-service-buttons {
+	display: flex;
+	gap: 80px;
+}
+
+.phone-number {
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.contact-info {
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.copyright {
+	font-size: 12px;
+}
+
+/*Hyperlink Psuedo Classes*/
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: inherit; 
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+/*Hover*/
+
+li a:hover {
+	color: darkcyan;
+}
+
+header li:last-child:hover {
+	background-color: #315b7d;
+}
+
+#news button:hover,
+#start-service button:hover {
+	background-color: #315b7d;
+	cursor: pointer;
+}
+
+#service button:hover,
+#about button:hover {
+	background-color: #dddddd;
+	cursor: pointer;
+}
+/*Google Fonts*/
+
+.wf-sawarabimincho { font-family: "Sawarabi Mincho"; }
+.wf-notosansjapanese { font-family: "Noto Sans JP"; }
+
+/*Google Material Icons*/
+
+/*Icon Positioning*/
+
+.material-icons.bottom, .material-icons-outlined.bottom {
+	vertical-align: bottom;
+}
+
+.material-icons.sub, .material-icons-outlined.sub {
+	vertical-align: sub;
+}
+
+/*Filled Icons Sizing*/
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 {font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/*Outlined Icons Sizing*/
+
+.material-icons-outlined.md-18 { font-size: 18px; }
+.material-icons-outlined.md-24 { font-size: 24px; }
+.material-icons-outlined.md-36 {font-size: 36px; }
+.material-icons-outlined.md-48 { font-size: 48px; }
+
+/*Icon Colour*/
+
+.material-icons.blue {
+	color: darkcyan;
+}
+
+.material-icons-outlined.white {
+	color: white;
+}

@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+ flex-direction: column;
+}
+
+.hero-text {
+	font-size: 32px;
+}
+
+.news-container {
+	width: 100%;
+}
+
+#news {
+	margin-top: 20px;
+	width: 100%;
+	gap: 20px;
+}
+
+#about {
+	width: 100%;
+	flex-wrap: wrap;
+} 
+
+.jp-header {
+	font-size: 28px;
+}
+
+.list-container {
+	flex-direction: column;
+}
+
+#service-area iframe {
+	width: 100%;
+}
+
+.start-service-buttons {
+	width: 100%;
+	gap: 15px;
+	justify-content: center;
+}

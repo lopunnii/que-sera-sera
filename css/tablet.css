@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+ flex-direction: column;
+}
+
+.news-container {
+	width: 100%;
+}
+
+#news {
+	margin-top: 20px;
+	width: 100%;
+	gap: 20px;
+}
+
+#about {
+	width: 100%;
+	flex-wrap: wrap;
+} 
+
+.list-container {
+	flex-direction: column;
+}
+
+#service-area iframe {
+	width: 100%;
+}
+
+.start-service-buttons {
+	width: 100%;
+	gap: 15px;
+	justify-content: center;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+}
