@@ -50,7 +50,6 @@ h1 a {
 
 p, li {
 	font-family: "Noto Sans JP";
-	color: black;
 }
 
 .active-page {
@@ -279,6 +278,7 @@ header li:last-child a {
 
 a:link {
 	text-decoration: none;
+	color: black;
 }
 
 a:visited {
